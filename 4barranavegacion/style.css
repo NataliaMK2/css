@@ -1,0 +1,37 @@
+.nav-enlace{
+display: inline-block;
+background: #546460;
+color: #ffffff;
+padding: 10px 30px;
+text-decoration: none;}
+
+.nav-enlace:hover{
+background: rgb(117, 235, 235);
+border-radius: 5px;
+border: 5px dotted #ffffffc9;}
+
+nav{
+background: #0a000a;
+padding: 10px; 
+display: flex;
+justify-content: space-between;
+}
+
+.nav-boton{ 
+background: #546460 ;
+color: #ffffff;
+padding: 10px;
+border: 2px solid #fff;
+display: none; 
+}
+
+@media(max-width:600px){
+nav{
+    background: rgb(174, 167, 197);
+    flex-direction: column;
+}   
+    .nav-enlace{
+        margin: 10px 0;
+    }
+.nav-boton{display: inline-block;}
+}

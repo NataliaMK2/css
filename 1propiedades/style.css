@@ -1,0 +1,15 @@
+h1 {color:blueviolet;
+front: size 400px;}
+
+p {color:orange;
+front: size 50px;}
+
+#unico{
+    color:gray;
+    front-size: 50px;
+}
+
+.verde{color: greenyellow;
+front: size 50px;}
+
+.fondo{background: red;}
